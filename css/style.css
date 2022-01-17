@@ -212,6 +212,7 @@ body {
 
 .main-div-leaner {
   padding-top: 200px;
+  padding-left: 20px;
 }
 .title {
   font-size: 70px;
@@ -272,14 +273,19 @@ body {
 .bx-play:hover {
   color: #459c51;
 }
+.hero-img {
+  position: relative;
+  top: 200px;
+  right: 50px;
+}
 .animation-img {
   position: relative;
 }
 
 .animation-img {
-  position: absolute;
-  top: 690px;
-  right: 110px;
+  position: relative;
+  bottom: 120px;
+  right: -380px;
   z-index: 1;
   animation: anima 2s infinite;
 }
