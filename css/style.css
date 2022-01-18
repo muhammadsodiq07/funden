@@ -287,14 +287,14 @@ body {
   bottom: 120px;
   right: -380px;
   z-index: 1;
-  animation: anima 2s infinite;
+  animation: anima 200s infinite;
 }
 @keyframes anima {
   0% {
     transform: rotateZ(0deg);
   }
   100% {
-    transform: rotateZ(360deg);
+    transform: rotateZ(36000deg);
   }
 }
 
